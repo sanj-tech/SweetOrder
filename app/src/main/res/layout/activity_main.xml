@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="#064953"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Select your Favourite "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+       android:id="@+id/rasgulla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rasgulla"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/kaju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaju katri"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/gulab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Gulab Jamun"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/peda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peda"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape"
+        android:onClick="Placeorder"
+        android:text="place Order"
+        android:textColor="@color/design_default_color_secondary_variant" />
+
+
+</LinearLayout>
